@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🌸 MSCROCHÊ 🌸</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌸 MSCROCHÊ 🌸</h1>
+    <p><b>Um cantinho para compartilhar amor e arte em forma de crochê!</b></p>
+  </header>
+
+  <nav>
+    <button onclick="showSection('projetos')">Projetos</button>
+    <button onclick="showSection('contato')">Contato</button>
+  </nav>
+
+  <section id="projetos" class="active">
+    <h2>🧶 Projetos em Destaque</h2>
+
+    <!-- Carrossel automático -->
+    <div class="carousel-container">
+      <div class="carousel" id="carousel">
+        <img src="assets/imagens/Tapete_11.webp" alt="Tapete Mandala">
+        <img src="assets/imagens/bolsa_25.jpg" alt="Bolsa de Crochê">
+        <img src="assets/imagens/Boina_5.png" alt="Boina">
+        <img src="assets/imagens/bolsa_21.png" alt="Bolsa Profissional">
+        <img src="assets/imagens/tapete_4.jpg" alt="Tapete">
+        <img src="assets/imagens/porta_pano_de_prato.jpg" alt="Porte Pano de Prato">
+        <img src="assets/imagens/saida_de_praia_1.jpg" alt="Saida de Praia">
+        <img src="assets/imagens/Supla_5.jpg" alt="Supla">
+      </div>
+    </div>
+
+    <!-- Miniaturas de fotos -->
+    <div class="featured-projects">
+      <h3>Peças já feitas</h3>
+      <div class="featured-grid">
+        <img src="assets/imagens/supla_1.jpg" alt="Supla">
+        <img src="assets/imagens/saida_de_praia_4.jpg" alt="Saida de Praia">
+        <img src="assets/imagens/boina_2.jpeg" alt="Boina">
+        <img src="assets/imagens/conjunto_bolsa_e_carteira_1.jpg" alt="Bolsa e Carteira">
+        <img src="assets/imagens/Carteira 2.jpg" alt="Carteira">
+        <img src="assets/imagens/supla_3.jpg" alt="Supla">
+        <img src="assets/imagens/manu_saida_de_praia.png" alt="Saida de Praia">
+        <img src="assets/imagens/Boina_5.png" alt="Boina">
+        <img src="assets/imagens/bolsa_6.jpg" alt="Bolsa">
+        <img src="assets/imagens/Carteira 4.jpg" alt="Carteira">
+        <img src="assets/imagens/blusa_1.jpg" alt="Blusa">
+        <img src="assets/imagens/caminho_de_mesa_2.jpg" alt="Caminho de Mesa">
+        <img src="assets/imagens/Carteira_5.jpg" alt="Carteira">
+        <img src="assets/imagens/guirlanda_5.jpg" alt="Guirlanda">
+        <img src="assets/imagens/guirlanda_4.jpg" alt="Guirlanda">
+        <img src="assets/imagens/supla_1.jpg" alt="Supla">
+
+      </div>
+    </div>
+
+   <!-- Grade de vídeos pequenos -->
+<div class="videos-container">
+  <video autoplay muted loop playsinline></video>
+  <video autoplay muted loop playsinline></video>
+  <video autoplay muted loop playsinline></video>
+  <!-- Adicione mais <video> aqui se quiser -->
+</div>
+    <p style="text-align: center; margin-top: 20px;">
+      Trabalho com peças sob encomenda e pronta entrega!  
+      <br><strong>Entre em contato pelo formulário abaixo ou no WhatsApp: (11) 99578-9346</strong>
+    </p>
+  </section>
+
+  <section id="contato">
+    <h2> 📬 Faça seu Pedido </h2>
+    <p>Preencha os dados abaixo e entrarei em contato em breve!</p>
+
+    <form action="https://formspree.io/f/mscrocheartesanatos@gmail.com" method="POST">
+      <div class="form-group">
+        <label for="nome">Nome Completo *</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone / WhatsApp (com DDD) *</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required>
+      </div>
+      <div class="form-group">
+        <label for="pedido">Descreva seu pedido *</label>
+        <textarea id="pedido" name="pedido" placeholder="Ex: Quero uma boina rosa, tamanho médio..." required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="endereco">Endereço para entrega (se aplicável)</label>
+        <textarea id="endereco" name="endereco" placeholder="Rua, número, bairro, cidade..."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Enviar Pedido 💌</button>
+      </div>
+    </form>
+
+    <p style="margin-top: 20px; text-align: center;">
+      Ou fale direto no WhatsApp:  
+      <a href="https://wa.me/559995789346" target="_blank" style="color: #25D366; font-weight: bold;">
+        (11) 99578-9346
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - MSCROCHÊ. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
