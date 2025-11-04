@@ -24,14 +24,14 @@
     <!-- Carrossel automático -->
     <div class="carousel-container">
       <div class="carousel" id="carousel">
-        <img src="assets/imagens/Tapete_11.webp" alt="Tapete Mandala">
+        <img src="assets/imagens/tapete_11.webp" alt="Tapete Mandala">
         <img src="assets/imagens/bolsa_25.jpg" alt="Bolsa de Crochê">
-        <img src="assets/imagens/Boina_5.png" alt="Boina">
+        <img src="assets/imagens/boina_5.png" alt="Boina">
         <img src="assets/imagens/bolsa_21.png" alt="Bolsa Profissional">
         <img src="assets/imagens/tapete_4.jpg" alt="Tapete">
         <img src="assets/imagens/porta_pano_de_prato.jpg" alt="Porte Pano de Prato">
         <img src="assets/imagens/saida_de_praia_1.jpg" alt="Saida de Praia">
-        <img src="assets/imagens/Supla_5.jpg" alt="Supla">
+        <img src="assets/imagens/supla_5.jpg" alt="Supla">
       </div>
     </div>
 
@@ -43,18 +43,18 @@
         <img src="assets/imagens/saida_de_praia_4.jpg" alt="Saida de Praia">
         <img src="assets/imagens/boina_2.jpeg" alt="Boina">
         <img src="assets/imagens/conjunto_bolsa_e_carteira_1.jpg" alt="Bolsa e Carteira">
-        <img src="assets/imagens/Carteira 2.jpg" alt="Carteira">
+        <img src="assets/imagens/carteira 2.jpg" alt="Carteira">
         <img src="assets/imagens/supla_3.jpg" alt="Supla">
         <img src="assets/imagens/manu_saida_de_praia.png" alt="Saida de Praia">
-        <img src="assets/imagens/Boina_5.png" alt="Boina">
+        <img src="assets/imagens/boina_5.png" alt="Boina">
         <img src="assets/imagens/bolsa_6.jpg" alt="Bolsa">
-        <img src="assets/imagens/Carteira 4.jpg" alt="Carteira">
+        <img src="assets/imagens/carteira 4.jpg" alt="Carteira">
         <img src="assets/imagens/blusa_1.jpg" alt="Blusa">
         <img src="assets/imagens/caminho_de_mesa_2.jpg" alt="Caminho de Mesa">
-        <img src="assets/imagens/Carteira_5.jpg" alt="Carteira">
+        <img src="assets/imagens/carteira_5.jpg" alt="Carteira">
         <img src="assets/imagens/guirlanda_5.jpg" alt="Guirlanda">
         <img src="assets/imagens/guirlanda_4.jpg" alt="Guirlanda">
-        <img src="assets/imagens/supla_1.jpg" alt="Supla">
+        <img src="assets/imagens/supla_5.jpg" alt="Supla">
 
       </div>
     </div>
@@ -112,4 +112,5 @@
 
   <script src="js/script.js"></script>
 </body>
+
 </html>
